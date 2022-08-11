@@ -1,0 +1,78 @@
+
+@use '../abstract' as *;
+
+// font-family: 'Inter', sans-serif;
+// font-family: 'Philosopher', sans-serif;
+
+
+body{
+    background-repeat: repeat-y;
+    background-image: linear-gradient(to right, rgba($primary,0.1) , rgba($primary,0.4)),url("../Images/lines.png");
+    position: relative;
+    // overflow-y: hidden;
+}
+
+.logo{ 
+    height: 6vw;
+}
+
+
+.text-img{ 
+    height: 30vw;
+}
+
+section{
+    h2{
+        font-size: 6rem;
+    }
+
+    p{
+        font-size: 2rem;
+    }
+
+    button{
+        font-size: 1.1rem !important;
+        padding: 1% 5% !important;
+    }
+}
+
+.img-back{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    // height: 70vh !important;
+    width:70vw !important;
+    filter: opacity(0.5);
+}
+// break point at 800 px
+@media (max-width:50em){
+    section{
+        h2{
+            font-size: 3rem;
+        }
+         p{
+            font-size: 1.2rem;
+         }
+        button{
+            font-size: .7rem;
+        }
+    }
+}
+
+// break point at 480 px
+@media (max-width:30em){
+    section{
+        h2{
+            margin-top:1rem !important;
+            font-size: 2rem;
+        }
+         p{
+            font-size: .95rem;
+            margin-bottom:.8rem !important;
+         }
+        button{
+            font-size: .59rem;
+        }
+    }
+}

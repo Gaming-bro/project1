@@ -1,0 +1,21 @@
+// @use 'abstract';
+
+// base
+@forward 'base/animation';
+@forward 'base/base';
+@forward 'base/utilities';
+@forward 'base/typography';
+// component
+
+// layout
+
+// pages
+@forward 'page/404';
+@forward 'page/about-us';
+@forward 'page/contact';
+@forward 'page/home';
+@forward 'page/gallery';
+@forward 'page/services';
+// theme
+// vendors
+@forward 'vendors/custom-bootstrap';

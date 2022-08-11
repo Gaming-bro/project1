@@ -1,0 +1,33 @@
+// my color
+$color-1:#222021;
+$color-2: #1E0C06;
+$color-3: #F5F5F5;
+$color-4: #FFDBBB;
+$color-5:#728BAD;
+
+
+// customize bootstrap color
+$primary:       $color-1;
+$secondary:     $color-2;
+$success:       $color-3 ;
+$info:          $color-4 ;
+$warning:       $color-5 ;
+
+
+// body color
+$body-bg:        $primary;
+$body-color:   $color-3 ;
+
+
+// overall fonts
+$font-family-base:   'Inter', sans-serif;
+$display-font-family:  'Philosopher', sans-serif;
+// nav bar
+$navbar-dark-color:              $success;
+$navbar-dark-hover-color:        rgba($success,0.6);
+$navbar-dark-active-color:       $warning;
+$nav-link-font-size:               1.3rem;
+$nav-link-padding-x:                3rem ;
+$navbar-nav-link-padding-x:   2rem;
+// btn 
+$btn-white-space: nowrap ;
